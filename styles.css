@@ -39,6 +39,7 @@ h1 {
     transition: transform 4s cubic-bezier(0.25, 0.1, 0.25, 1);
     position: relative;
     /* ポインターがスピナーの下に隠れないように、背景を透過させない */
+    transform-origin: 50% 50%; /* ここで回転の中心を指定 */
     background-color: transparent; /* 必要に応じて調整 */
 }
 
