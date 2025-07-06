@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 既存のコード...
-document.addEventListener('DOMContentLoaded', () => {
     const rouletteSvg = document.getElementById('roulette-svg');
     const rouletteSpinner = document.getElementById('roulette-spinner');
     const spinButton = document.getElementById('spin-button');
