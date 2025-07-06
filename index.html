@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ルーレット</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="manifest" href="manifest.json"> <!-- マニフェストファイルのリンク -->
+    <meta name="theme-color" content="#ffffff"> <!-- ヘッダーの背景色 -->
+    <link rel="apple-touch-icon" href="images/icon.png"> <!-- Apple端末向けアイコン -->
+</head>
+<body>
+    <div class="container">
+        <h1>ルーレット</h1>
+        <div class="roulette-wrapper">
+            <div id="roulette-spinner" class="roulette-spinner">
+                <svg id="roulette-svg" width="300" height="300" viewBox="0 0 300 300">
+                </svg>
+            </div>
+            <div class="roulette-pointer"></div>
+        </div>
+        <button id="spin-button">スピン！</button>
+
+        <div id="result" class="result"></div>
+
+        <div class="options-input">
+            <h2>ルーレットの項目設定</h2>
+            <textarea id="options-textarea" rows="5" placeholder="項目を改行で区切って入力してください例:&#10;項目A&#10;項目B&#10;項目C"></textarea>
+            <button id="update-options-button">項目を更新</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
