@@ -176,7 +176,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 初期ルーレット描画
     drawRoulette();
-});
 
     // PWA用のService Workerを登録
     if ('serviceWorker' in navigator) {
