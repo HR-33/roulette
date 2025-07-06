@@ -8,8 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 初期ルーレット項目
     let options = [
-        "りんご", "バナナ", "みかん", "ぶどう", "いちご",
-        "パイナップル", "もも", "さくらんぼ"
+        "A", "B", "C", "D"
     ];
 
     const colors = [
